@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.inner-container{
+    width: 85%; 
+    margin: auto; 
+}
+
+:root{
+    --main_color:#4da580;
+    --dark_blue:#1e3547;
+    --sky_blue:#e8f1f0;
+    --main_blue:#005cb9;
+    --valo:#882a91;
+    --black:#181616;
+    --red:#e31d1a;
+}
+
+
+
+/*-----------Common for all pages -------------- */
+/*----------btn -------- nav ----------------*/
+.wh-btn{
+    background-color: white;
+    border: 1px solid var(--main_color);
+    color: var(--main_color);
+    border-radius: 25px;
+    padding: 7px 40px ;
+    margin: 0px 10px 0px 10px;
+    font-weight: 700;
+    font-size: 19px;
+    transition: .2s;
+}
+.wh-btn:hover{
+    background-color: var(--main_color);
+    color: white;
+    -webkit-box-shadow: 0 20px 40px -10px #60CC9E;
+    box-shadow: 0 20px 40px -10px #60CC9E;
+}
+.gr-btn{
+    background-color: var(--main_color);
+    border: 1px solid var(--main_color);
+    color: var(--sky_blue);
+    border-radius: 25px;
+    padding: 7px 40px ;
+    margin: 0px 10px 0px 10px;
+    font-weight: 700;
+    font-size: 19px;
+    transition: .2s;
+}
+.gr-btn:hover{
+    background-color:white;
+    color: var(--main_color);
+    -webkit-box-shadow: 0 30px 51px -10px #6FEDB8;
+    box-shadow: 0 30px 51px -10px #6FEDB8;
+}
+.ts-btn{
+    background-color: transparent;
+}
+nav{
+    margin-top: 20px;
+}
+.nav-item{
+    margin-top: 9px;
+}
+.navbar-brand{
+    margin-right: 120px;
+}
+.nav-link{
+    font-weight: 900;
+    font-size: 14px;
+}
+h1{
+    color: var(--dark_blue);
+}
+/*----------header-------------  */
+.header{
+    border-top: 5px solid var(--main_color);
+}
+
+
+/*-------------- hero ----------*/
+.hero{
+    margin-top: 80px;
+    overflow: hidden;
+}
+.hero h1 {
+    font-weight: 800;
+    color: var(--dark_blue);
+    font-size: 65px;
+    text-align: center;
+    font-size: 52px;
+    line-height: 66px;
+    margin-bottom: 10px;
+}
+
+.hero-img img{
+    width: 450px; 
+}
+.hero_main{
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 150px;
+}
+.hero_main span{
+    font-size: 18px; 
+    color: #43494e; 
+    text-align: center;
+    margin: 30px 0;
+    display: inline-block;
+    font-weight: 400; 
+    letter-spacing: .4px;
+}
+.hero_main p{
+    font-size: 18px; 
+    color: #43494e; 
+    text-align: center;
+    font-weight: 400; 
+    letter-spacing: .4px;
+}
+.hero_main p a{
+    text-decoration: none;
+    color: #4da580; 
+    font-weight: 800; 
+    margin-left: 5px;
+}
+
+.back-home a{
+    background: #4DA57F;
+    color: #fff;
+    font-size: 14px; 
+    font-weight: 600;
+    letter-spacing: .5px; 
+    border: 2px solid #4DA57F;
+    transition: .1s;
+    margin-top: 50px;
+    text-decoration: none;
+    padding: 10px 60px; 
+    margin-top: 50px;
+    border-radius: 30px;
+    display: inline-block;
+}
+.back-home a:hover{
+    background: #3e8868;
+    border: 2px solid #3e8868;
+}
+
+
+
+
+
+
+
+
+
+
+/* -----------footer------------ */
+.footer{
+    background-image: url(../img/footer_back.png) ;
+    background-size: cover;
+    color: #ffffff;
+    padding-top:125px ;
+}
+.footer p{
+    margin-top: 32px;
+    font-size: 18px;
+}
+.footer h5{
+    font-weight: 900;
+}
+
+.footer .footer_nav a{
+    display: block;
+    text-decoration: none;
+    color: #bfbfbb;
+    font-size: 18px;
+    margin-top: 7px;
+}
+.footer .footer_nav a:hover{
+    color: #ffffff;
+}
+.footer .footer_links{
+    margin-top: 20px;
+}
+.footer .footer_touch i {
+	background-color: #ffffff;
+	color: var(--dark_blue);
+	font-size: 20px;
+	padding: 15px 16px;
+	width: 50px;
+	border-radius: 50%;
+	margin: 20px 6px;
+}
+.footer .footer_touch i:hover{
+    background-color: var(--main_color);
+    -webkit-box-shadow: 0 20px 40px -10px #60CC9E;
+    box-shadow: 0 20px 40px -10px #60CC9E;
+}
+.footer .footer_copy {
+	font-size: 16px;
+	font-weight: 700;
+	padding-bottom: 30px;
+	margin-top: 75px;
+}
+.bg_none{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+.bg_none:hover{
+    box-shadow: unset !important;
+}
+.footer_touch h3{
+    font-size: 17px;
+}
